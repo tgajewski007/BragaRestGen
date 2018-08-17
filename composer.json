@@ -1,0 +1,23 @@
+{
+	"name" : "BragaRestGen",
+	"description" : "Braga REST server code generator",
+	"type" : "project",
+	"license" : "MIT",
+	"authors" : [{
+			"name" : "Tomasz Gajewski",
+			"email" : "tgajewski007@gmail.com",
+			"role" : "designer, developer"
+		}
+	],
+	"support" : {
+		"source" : "https://github.com/tgajewski007/BragaRestGen.git"
+	},
+	"autoload" : {
+		"psr-4" : {
+			"braga\\restgen\\" : "src"
+		}
+	},
+	"require-dev" : {
+		"symfony/yaml" : "~3.4"
+	}
+}
